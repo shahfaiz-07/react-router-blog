@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+.navLink {
+    @apply py-4 w-screen md:w-fit md:h-full md:px-6 text-center inline-block hover:bg-slate-900;
+}
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    display: none;
+}
